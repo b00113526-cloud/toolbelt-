@@ -1,0 +1,13 @@
+Input:   distance in kilometers
+Output:  distance in miles
+Example: 10 km -> 6.21371 miles (rounded to 2 dp: 6.21)
+
+Steps:
+1. ask for distance in kilometers
+2. miles = kilometers * 0.621371
+3. print miles, rounded to 2 decimals
+
+What could go wrong, and what the program should do:
+1. negative input -> print an error message, ask again
+2. non-numeric input (e.g. "abc") -> print an error message, ask again
+3. empty input -> print an error message, ask again
